@@ -27,6 +27,7 @@
                 <thead>
                     <tr>
                         <th>No</th>
+                        <th>id rumah</th>
                         <th>Nama</th>
                         <th>nohp</th>
                         <th>tanggal sewa</th>
