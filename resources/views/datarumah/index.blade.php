@@ -28,7 +28,8 @@
                                 <p class="card-text">status: {{ $rumah->status }}</p>
                                 <h3>
                                     <body>
-                                    <a href="{{ route('sewa.create', $rumah->id) }}" class="btn btn-sm btn-success">Sewa</a>
+                                    <div class="btn-group">
+                                         <a href="{{ route('sewa.create', $rumah->id) }}" class="btn btn-sm btn-success">Sewa</a>
                                     <form action="{{ route('datarumah.destroy', $rumah->id) }}" method="POST">
                                 @csrf
                                     @method('DELETE')
@@ -36,6 +37,8 @@
                                         delete
                                       </button>
                                 </form>
+                                    </div>
+                                   
                                 </h3>
                             </div>
                         </div>

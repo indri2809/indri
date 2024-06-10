@@ -8,7 +8,7 @@
 <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.css">
 @endsection
 
-@section('judulh1','Admin - Produk')
+@section('judulh1','data - sewa')
 
 @section('konten')
 
@@ -55,9 +55,7 @@
 
                                 </form>
 
-                                <a type="button" class="btn btn-warning" href="{{ route('cekdata.edit',$dt->id) }}">
-                                    <i class=" fas fa-edit"></i>
-                                </a>
+                            
                             </div>
 
 

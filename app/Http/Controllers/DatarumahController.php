@@ -10,7 +10,7 @@ class DatarumahController extends Controller
 {
     //
     public function index(){
-        return view('datarumah.index',["title" => "koleksi buku","data"=>data_rumah::paginate(8)]);
+        return view('datarumah.index',["title" => "sewa rumah","data"=>data_rumah::paginate(8)]);
         
     }
 
